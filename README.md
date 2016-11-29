@@ -1,10 +1,9 @@
 # Initial Setup
-* Plug everythin in and start up. Select Jessier Pixel from NOOBS. Takes awhile to initialize. 
+* Plug everything in and start up. Select Jessie Pixel from NOOBS. Takes awhile to initialize. 
 
   ```
   $ sudo apt-get update
   $ sudo apt-get upgrade
-  $ sudo rip-update
   ```
 
 * If your screen is too large / too small for the display
