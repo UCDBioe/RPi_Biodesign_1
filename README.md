@@ -4,6 +4,7 @@
   ```
   $ sudo apt-get update
   $ sudo apt-get upgrade
+  $ sudo rpi-upgrade
   ```
 
 * If your screen is too large / too small for the display
