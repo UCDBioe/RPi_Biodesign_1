@@ -32,6 +32,39 @@ $ git config --global user.email johndoe@example.com
   $ sudo apt-get install vim
   ```
 
+* Copy .vimrc file from this folder into home directory
+
+  ```
+  $ cp .vimrc ~/
+  ```
+
+* Install [Pathogen](https://github.com/tpope/vim-pathogen)
+
+  ```
+  $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  ```
+
+* Install [Vundle](https://github.com/VundleVim/Vundle.vim)
+
+  ```
+  $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  ```
+
+* Copy colors directory from this directory to ~/.vim
+
+  ```
+  $ cp -r colors ~/.vim/
+  ```
+
+* Launch `vim` and run `:PluginInstall`
+
+* Install [NERDTree](https://github.com/scrooloose/nerdtree) using Pathogen
+
+  ```
+  git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+  ```
+
 
 # Install virtualenvwrapper for python
 * [Tutorial](http://www.pyimagesearch.com/2015/02/23/install-opencv-and-python-on-your-raspberry-pi-2-and-b/) See step 7
